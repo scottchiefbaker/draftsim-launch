@@ -1,0 +1,2 @@
+DirectoryIndex about.php
+ErrorDocument 404 http://draftsim.com/404.php
