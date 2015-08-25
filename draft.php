@@ -58,7 +58,7 @@
 
 <hr style="height:1px; visibility:hidden;"/>
 
-<ul id="commands">
+<ul id="commands" class="commands">
 
   <li id= " during_draft" class="during_draft" style="display:none;" onclick=toggle_suggestions()> Suggestions </li>
  
@@ -83,6 +83,13 @@
 <div id="collection_container" class="display">
   <p id="collection_img" class="display"> </p>
 </div>
+
+<ul id="sort_deck" class="commands" style="display:none;">
+ <br>
+  <li id="color_sort" style="display:inline" onclick="sort_collection=1;Print_collection();";> Color Sort </li> 
+<!--  <li id="cmc_sort"   style="display:inline" onclick="sort_collection=2;Print_collection();";> CMC Sort </li> -->
+<br><br>
+</ul>
 
 <!--lands-->
 <div id="lands" class="after_draft" style="display:none">
@@ -112,4 +119,5 @@
 
 </body>
 </html>
+
 
